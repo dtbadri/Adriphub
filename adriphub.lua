@@ -42,8 +42,14 @@ DoorsSection:NewButton("CMD-X", "Doors OP SCRIPT", function()
 end)
 
 
-DoorsSection:NewButton("Spotify Hub", "Doors OP SCRIPT", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ewyzu/ewyzu-scripts/main/ewyzu-AUT"))()
+DoorsSection:NewButton("Vinyxu", "Doors OP SCRIPT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+
+
+
+DoorsSection:NewButton("Entity Spawner", "Doors OP SCRIPT", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
 end)
 
 
@@ -61,9 +67,43 @@ end)
 
 
 local FunGeneral = Window:NewTab("Fun")
-local FunSection = ArsenalGeneral:NewSection("Fun")
+local FunSection = FunGeneral:NewSection("Fun")
 
-FunSection:NewButton("FrontFlips,BackFlips", "FF = Z BB=X", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/crPcd0vq"))();
+
+
+FunSection:NewButton("Infinite Yeld FE Admin", "FE OP Admin for fun", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+
+FunSection:NewButton("backdoor.exe SS", "Very fun script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+
+
+--BUILD A BOAT
+
+local BABGeneral = Window:NewTab("Build a Boat")
+local BABSection = BABGeneral:NewSection("Build a Boat")
+
+
+BABSection:NewButton("V.G Hub", "Very fun script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/CYye6uA4"))();
+end)
+
+
+
+BABSection:NewButton("Vinyxius", "Very fun script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+end)
+
+
+
+local VRGeneral = Window:NewTab("Victory Race")
+local VRSection = VRGeneral:NewSection("Victory Race")
+
+
+
+VRSection:NewButton("Victory Race", "Very fun script", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/SmoxHub/SmoxHub-V2/main/Victory-Race-V2", true))()
+end)
