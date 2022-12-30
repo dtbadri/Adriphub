@@ -107,3 +107,12 @@ local VRSection = VRGeneral:NewSection("Victory Race")
 VRSection:NewButton("Victory Race", "Very fun script", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/SmoxHub/SmoxHub-V2/main/Victory-Race-V2", true))()
 end)
+
+-- PET SIM X
+
+local PSXGeneral = Window:NewTab("Pet Sim X")
+local PSXSection = BABGeneral:NewSection("Pet Sim X")
+
+PSXSection:NewButton("MOD TAG")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/PartnerPSX/main/FakePartnerTag", true))()
+end)
